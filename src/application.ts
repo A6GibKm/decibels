@@ -54,6 +54,7 @@ export class Application extends Adw.Application {
     this.set_accels_for_action("app.new-window", ["<Control>n"]);
     this.set_accels_for_action("app.quit", ["<Control>q"]);
     this.set_accels_for_action("win.open-file", ["<Control>o"]);
+    this.set_accels_for_action("window.close", ["<Control>w"]);
   }
 
   private show_about_dialog_cb() {
